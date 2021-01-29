@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	color: #666;
+}
+
+header, main, aside, footer, li {
+	padding:10px;
+}
+
+li {
+	list-style-type: none;
+	background-color: #ddd;
+	border: solid 3px #fff;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+#header {
+	background-color: rgba(255,255,255,0.8);
+	top: 0;
+	left: 0;
+	height: 100px;
+}
+#menu {
+	position: fixed;
+	width: 80%;	
+}
+#menu li {
+	background-color: #ddd	;
+	text-align: center;
+}
+
+#menu li:hover {
+	background-color: green;
+	}
+
+#main {
+	background-color: rgba(255,255,255,0.5);
+}
+#aside {
+	background-color: rgba(255,255,255,0.3);
+}
+#footer {
+	background-color: rgba(255,255,255,0.1);
+}

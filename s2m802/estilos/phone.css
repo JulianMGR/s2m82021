@@ -1,0 +1,54 @@
+@media screen and (max-width: 480px){
+body {
+		background-color: tomato;
+}
+#header {
+	height: 100px;
+	width: 100%;
+}
+#header h1{
+		width: 50%;
+		float: right;
+}
+	
+.check{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	opacity: 0;
+}
+.check:checked ~ #menu{
+	left: 0;
+	transition: 1s;
+}
+#burguer{
+	background-color: violet;
+	width: 50px;
+	height: 50px;
+	padding-top: 5px;
+}
+#burguer > li{
+		background-color: #FFF;
+		width: 30px;
+		height: 5px;
+		margin: 5px auto;
+		border-radius: 15px;
+		padding: 0;
+		border: 0;
+}
+#menu{
+	position: absolute;
+	top: 50px;
+	left: -100%;
+	width: 100%;
+	}
+#footer {
+	height: 100px;
+}
+	
+	
+
+}

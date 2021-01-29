@@ -1,0 +1,28 @@
+@media screen and (min-width: 480px){
+	body {
+		background-color: yellowgreen;
+	}
+#main li {
+	width: 50%;
+	float: left;
+}
+
+#header {
+	
+}
+
+#main {
+	overflow: hidden;
+}
+
+#aside {
+	overflow: hidden;
+}
+
+#footer {
+	height: 100px;
+}
+
+
+
+}

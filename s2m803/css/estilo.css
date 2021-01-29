@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	font-size: 32px;
+	line-height: 42px;
+}
+#header{
+	height: 10vh;
+	background-color: #ddd;
+
+}
+#aside{
+	height: 15vh;
+	background-color: lavender;
+	overflow-x: auto;
+}
+.bola{
+	width: 10vh;
+	height: 10vh;
+	border-radius: 50%;
+	background-color: #fff;
+	border: solid 1px #666;
+	margin: 0 5px;
+	display: inline-block;
+	
+}
+.slider{
+	background-color: yellow;
+	height: 10vh;
+	width: 300vw;
+	
+}
+#main{
+	
+	height: 65vh;
+	overflow-y: auto;
+	background-color: pink;
+	scrollbar-width: none;
+	
+}
+/*#main::-webkit-scrollbar{
+	display: none;
+}*/
+#footer{
+	height: 10vh;
+	background-color: #DDD;
+	
+}
