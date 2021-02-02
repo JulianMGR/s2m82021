@@ -3,20 +3,44 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+p{
+	font-size: 10px;
+	text-align: center;
+	
+}
 body{
 	height: 100vh;
-	font-size: 32px;
-	line-height: 42px;
+	
 }
 #header{
 	height: 10vh;
 	background-color: #ddd;
+	font-size: 20px;
+	text-align: center;		
+	overflow: hidden;
+	padding-top: 20px;
+}
 
+#header h1{
+	width: 60%;
+}
+#header i{
+	width: 20%;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.icono{
+	font-size: 1.6rem;
+	line-height: 48px;
 }
 #aside{
 	height: 15vh;
-	background-color: lavender;
+	padding-top: 15px;
+	
 	overflow-x: auto;
 }
 .bola{
@@ -29,10 +53,15 @@ body{
 	display: inline-block;
 	
 }
+.bola img{
+	width: 100%;
+	padding: 5%;
+	border-radius: 50%;
+}
 .slider{
-	background-color: yellow;
-	height: 10vh;
-	width: 300vw;
+	
+	height: 13vh;
+	width: 239vw;
 	
 }
 #main{
@@ -43,6 +72,47 @@ body{
 	scrollbar-width: none;
 	
 }
+.perfil{
+	background-color: aqua;
+	height: 7vh;
+	padding-top: 1.5vh;
+	padding-right: 15px;
+	overflow: hidden;
+	
+}
+.perfil h3{
+	margin-top: 0.7vh;
+}
+.perfil i{
+	font-size: 30px;
+	margin-top: -5px;
+}
+.mini{
+	border-radius: 50%;
+	width: 4vh;
+	height: 4vh;
+	margin: 0 15px;       	
+}
+.foto{
+	width: 100%;
+	height: 45vh;
+}
+.foto img{
+	width: 100%;
+}
+
+.botones{
+	height: 8vh;
+	padding-top: 15px;
+	padding-left: 15px
+	
+}
+.botones i{
+	font-size: 49px;
+	margin-right: 15px;
+}
+
+
 /*#main::-webkit-scrollbar{
 	display: none;
 }*/
