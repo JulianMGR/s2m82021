@@ -37,6 +37,11 @@ body{
 	font-size: 1.6rem;
 	line-height: 48px;
 }
+.iconop{
+	font-size: 1rem;
+	color: red;
+	margin-right: 5px
+}
 #aside{
 	height: 15vh;
 	padding-top: 15px;
@@ -69,7 +74,7 @@ body{
 	height: 65vh;
 	overflow-y: auto;
 	background-color: pink;
-	scrollbar-width: none;
+	/*scrollbar-width: none;*/
 	
 }
 .perfil{
@@ -111,8 +116,19 @@ body{
 	font-size: 49px;
 	margin-right: 15px;
 }
-
-
+.caract{
+	height: 20vh;
+	background-color: aqua;
+	clear: both;
+	padding: 15px;
+}
+.caract p{
+	padding-top: 2px;
+	text-align: left;
+	font-size: 12px;
+	
+	
+}
 /*#main::-webkit-scrollbar{
 	display: none;
 }*/
