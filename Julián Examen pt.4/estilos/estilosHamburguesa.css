@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+/*---------------CASILLA DE CHEQUEADO-------------*/
+.check{
+	width: 25px;
+	height: 30px;
+	position: absolute;
+	top: 15px;
+	right: 30px;
+	z-index: 2;
+	opacity: 0;
+}
+
+.check:checked ~ #menu{
+	right:0;
+	transition: 1.6s;
+}
+.check:not(:checked)~ #menu{
+	right: -450PX;
+	transition: 1.5s;
+}
+/*---------------ESTÉTICA HAMBURGUESA-------------*/
+#burguer{/* El cuadrado del menú*/
+	background-color: white;
+	padding-top: 5px;
+	top:15px;
+	right: 35px;
+	position: absolute;
+	z-index: 1;
+}
+#burguer > li{/* Las barras centrales*/
+	background-color: #000;
+	width: 15px;
+	height: 1px;
+	margin: 4px auto;
+	padding: 0;	
+	border: 0;
+  list-style-type: none;
+}
+/*---------------MOVIMIENTO DEL MENÚ EXPANDIDO-------------*/
+#menu{
+	position: absolute;
+	top:50px;
+	background-color: white;
+	width: 450px;
+	height: calc(100vh - 50px);
+	z-index: 1;
+	padding-left: 0	;
+}
+#menu li{
+	margin: 20px 0;
+	padding-left: 45px;
+	text-align: left;
+	list-style-type: none;
+}
+#menu p{
+	font-size: 30px;
+	text-decoration: none;
+	color:#000;
+}
+#menu a{
+	font-size: 30px;
+	text-decoration: none;
+	color:#000;
+}
+#menu a:hover{
+	color: goldenrod;
+	
+}#menu p:hover{
+	color: goldenrod;
+}
+/*----------------------------submenus----------------*/
+
+#noMostrar{
+	
+}
+
+
+
+
+
+
+
+
+

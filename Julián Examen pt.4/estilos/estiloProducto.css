@@ -1,0 +1,114 @@
+.pt-15{
+	padding-top: 15px;
+}
+/*-------------categoria------------*/
+#categoria{
+	margin-top:50px; 
+	padding: 15px 0 15px 45px;
+	display: flex;	
+}
+#categoria a{
+	text-decoration: none;
+	color: #000;
+}
+#categoria a:hover{
+	color: goldenrod;
+}
+
+
+/*-------------------producto---------------*/
+
+#producto{
+	height: calc(100vh - 104px);
+	padding-top: 30px;
+	background-image: url("../img/orcaero/ORCA_AREO_M21eTEAM.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	overflow: hidden;
+	min-height: 500px;
+}
+#producto{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+
+
+#info{
+	margin-left: 45px;
+}
+
+
+#info h2{
+	font-size: 45px;
+}
+.iconos{
+	float:left;
+	padding-right: 15px;
+}
+
+#botonInferior{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+#colores{
+	margin-right: 45px;
+}
+.botonRedondo{
+	margin-left: 15px;
+	border-radius: 50%;
+	background-color: blue;
+	width: 20px;
+	height: 20px;
+	
+}
+#color1{
+	background-color:#4F88FC ;
+}
+#color2{
+	background-color: #111111;
+}
+#color3{
+	background-color: #ddd;
+}
+/*---------------------botones inferiores -------------------*/
+
+#botonInferior{
+	height: 50px;
+	font-weight: 800;
+	
+}
+
+#botonInferior ul{
+	justify-content: space-around;
+	height: 100%;
+}
+#botonInferior li{
+	font-size: 30px;
+}
+
+#inferior1{
+	padding: 0px 50px;
+	border-left: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+
+}
+
+#inferior2{
+	padding: 0px 100px;
+	background-color: #00AEFF;
+	color: #fff;
+}#inferior2:hover{
+	background-color: #000;
+	transition: 0.3s;
+}
+#inferior3{
+	padding: 0px 50px;
+	background-color: #000;
+	color: #fff;
+}
+

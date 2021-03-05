@@ -1,0 +1,90 @@
+@media  (max-width: 1000px) { 
+
+	#menus{
+		display: none;
+
+	}
+	#solomovil{
+		display: block;
+	}
+	
+	#quitaEnMovil{
+		display: none;
+	}
+
+@media  (max-width: 768px) { 
+
+	#info h2{
+		font-size: 30px;
+	}
+
+	#colores ul{
+		display: block;
+
+	}
+	#colores li{
+		margin-bottom: 15px;
+	}
+	#botonInferior{
+		width: 100vw;
+		
+	}
+
+	#botonInferior li{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	}
+
+	#inferior1{
+		display: none;
+	}
+	#inferior2{
+			width: 50%;
+			padding: 0;
+		}
+	#inferior3{
+			width: 50%;
+			padding: 0;
+		}
+	
+}
+
+
+
+@media  (max-width: 480px) { 
+
+
+	#header{
+		position: relative;
+	}
+
+	#categoria{
+		display: none;
+	}
+
+	
+	#info h2{
+		font-size: 24px;
+	}
+
+	
+	.check:checked ~ #menu{
+	right:0;
+	transition: 1.6s;
+	}
+	.check:not(:checked)~ #menu{
+	right: -100%;
+	transition: 1.5s;
+	display: none;
+	}
+
+	#menu{
+		width: 100%;
+		overflow: scroll;
+	}
+	#iconos{
+			display: none;
+		}
+	
+}

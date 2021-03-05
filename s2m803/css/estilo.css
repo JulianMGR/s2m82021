@@ -77,7 +77,8 @@ body{
 .slider{
 	
 	height: 12vh;
-	width: 239vw;
+	/*width: 178vw;*/
+	width: 800px;
 	
 }
 #main{
